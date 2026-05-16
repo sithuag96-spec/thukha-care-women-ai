@@ -1,0 +1,8 @@
+{
+  "name": "Thukha Care Women AI Assistant",
+  "description": "Safe, private, and supportive AI health assistant for women's health education and triage by Thukha Medical Centre.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

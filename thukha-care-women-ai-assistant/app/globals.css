@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+Myanmar:wght@400;500;700&family=Playfair+Display:ital,wght@1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans Myanmar", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-brand-primary: #8BAA91;
+  --color-brand-secondary: #7A7067;
+  --color-brand-bg: #F9F6F2;
+  --color-brand-dark: #2D2A27;
+  --color-brand-border: #E8E2DC;
+  --color-brand-alert: #C27E7E;
+  --color-brand-surface: #F5F1EE;
+}
+
+:root {
+  --brand-primary: #8BAA91;
+  --brand-secondary: #7A7067;
+  --brand-bg: #F9F6F2;
+  --brand-dark: #2D2A27;
+  --brand-border: #E8E2DC;
+  --brand-alert: #C27E7E;
+  --brand-surface: #F5F1EE;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: #4A433F;
+  font-family: var(--font-sans);
+}
+
+.markdown-body p {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-body p:last-child {
+  margin-bottom: 0;
+}
